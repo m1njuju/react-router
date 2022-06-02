@@ -1,4 +1,5 @@
 // 쿼리스트링 ?로 시작하고 키=값 한 쌍으로 들어오는 값
+// 여러 개의 키=값으로 들어오게 될 때는 &를 통해서 들고온다
 import { useLocation } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 
